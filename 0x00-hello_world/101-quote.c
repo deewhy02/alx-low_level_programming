@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - Function begins
- * Return: Function ends
+ * main - print exactly (and that piece of art is useful)
+ * Return: Always 1
  */
 int main(void)
 {
