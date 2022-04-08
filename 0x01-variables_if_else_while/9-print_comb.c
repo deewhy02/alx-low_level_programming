@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - main block
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -19,6 +19,6 @@ putchar(' ');
 }
 c++;
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
