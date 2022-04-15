@@ -6,10 +6,10 @@
  *
  * Return: void
  */
+
 void print_square(int size)
 {
-int i;
-int j;
+int i, j;
 
 if (size > 0)
 {
@@ -24,6 +24,6 @@ _putchar('\n');
 }
 else
 {
--putchar('\n');
+_putchar('\n');
 }
 }
