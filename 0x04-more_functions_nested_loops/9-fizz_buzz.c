@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print fizz for int divisible by 3 and buzz for 5
+ * main - print Fizz for int divisible by 3 and Buzz for 5
  *
  * Return: int
  */
@@ -13,7 +13,7 @@ for (i = 0; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 != 0)
 {
-printf("fizz");
+printf("Fizz");
 }
 else if (i % 3 != 0 && i % 5 == 0)
 {
@@ -21,16 +21,16 @@ printf("Buzz");
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-printf("Fizz,Buzz");
+printf("FizzBuzz");
 }
 else
 {
 printf("%d", i);
 }
 if (i != 100)
-_putchar(' ');
+putchar(' ');
 else
-_putchar('\n');
+putchar('\n');
 }
 return (0);
 }
