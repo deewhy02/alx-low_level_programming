@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_numerical - check if it is digit
+ * is_numerical - check if it is a digit
  * @n: number
  * Return: if it is a number, return 1 else return 0
  */
@@ -24,7 +24,7 @@ int sign;
 sign = 1;
 num = 0;
 
-for (i = 0; s[i] != '\0';)
+for (i = 0; s[i] != '\0')
 {
 if (is_numerical(s[i]))
 {
