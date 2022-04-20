@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - reverse a string
+ * rev_string - print a reverse string
  * @s: A pointer to the int that will be changed
  *
  * Return: void
@@ -34,7 +34,7 @@ c = *end_c;
 *end_c = *start_c;
 *start_c = c;
 
-*start_c++;
-*end_c--;
+start_c++;
+end_c--;
 }
 }
