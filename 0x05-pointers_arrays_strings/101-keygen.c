@@ -24,6 +24,7 @@ p[i] = c[j];
 s += c[j];
 i++;
 }
+
 while (c[k])
 {
 if (c[k] == (2772 - s))
@@ -33,9 +34,11 @@ s += c[k];
 i++;
 break;
 }
+
 k++;
 }
 }
+
 p[i] = '\0';
 printf("%s", p);
 return (0);
