@@ -28,7 +28,7 @@ for (i = 0; s[i] != '\0';)
 {
 if (is_numerical(s[i]))
 {
-num (s[i] - 48) + num * 10;
+num = (s[i] - 48) + num * 10;
 
 if (s[i + 1] == ' ')
 break;
@@ -39,6 +39,6 @@ sign *= -1;
 }
 }
 
-return (num * sign);
+return (num *sign);
 }
 
