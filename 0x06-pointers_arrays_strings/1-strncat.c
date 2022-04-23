@@ -14,15 +14,14 @@ int i;
 int j;
 
 i = 0;
-while (dest[i] != '\0')
-{
+while (dest[i])
 i++;
-}
 
-for ( j = 0; j < n && src[j] != '\0')
 
-dest[j + 1] = src[i];
-dest[j + 1] = '\0';
+for (j = 0; j < n && src[j] != '\0'; j++)
+
+dest[i + 1] = src[j];
+dest[i + 1] = '\0';
 
 return (dest);
 }
