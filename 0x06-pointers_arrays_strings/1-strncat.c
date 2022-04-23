@@ -2,7 +2,7 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest: A p pointer to the character thatw will changed
+ * @dest: A pointer to the character thatw will changed
  * @src: A pointer to the character that will be changed
  * @n: value
  *
