@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: A p pointer to the character thatw will changed
  * @src: A pointer to the character that will be changed
  * @n: value
