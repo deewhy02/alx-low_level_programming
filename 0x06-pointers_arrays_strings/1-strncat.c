@@ -6,7 +6,7 @@
  * @src: A pointer to the character that will be changed
  * @n: value
  * 
- * Return: dest
+ * Return: @dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -19,14 +19,10 @@ while (dest[i] != '\0')
 i++;
 }
 
-j = 0;
-while (j < n && src[j] != '\0')
-{
-dest[i] = src[j];
-j++;
-i++;
-}
+for ( j = 0; j < n && src[j] != '\0')
 
-dest[i] = '\0';
+dest[j + 1] = src[i];
+dest[j + 1] = '\0';
+
 return (dest);
 }
