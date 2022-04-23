@@ -9,14 +9,23 @@
  */
 void reverse_array(int *a, int n)
 {
-int i, j, tmp;
+int *start_c, *end_c, c;
+int i;
 
-j = n - 1;
+start_c = a;
+end_c = a;
+
+for (i = 0; i < n - 1; i++)
+{
+end_c++;
+}
+
 for (i = 0; i < n / 2; i++)
 {
-tmp = a[i];
-a[i] = a[j];
-a[j] = tmp;
-j--;
+c = *end_c;
+*end_c = *start_c;
+
+
 }
+
 }
