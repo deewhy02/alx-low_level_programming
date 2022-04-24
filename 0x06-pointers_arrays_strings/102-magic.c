@@ -12,7 +12,7 @@ p = &n;
  * write your line of code here...
  * Remember:
  * - you are not allowed to use a
- * - you are not allowed to modified p
+ * - you are not allowed to modiy p
  * - only one statement
  * - you are not allowed to code anything else than this line of code
  */
