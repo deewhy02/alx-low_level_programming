@@ -15,7 +15,7 @@ else if (i * i < n)
 return (_evaluate(i + 1, n));
 
 else if (i * i == n)
-return (1);
+return (i);
 return (-1);
 return (-1);
 }
