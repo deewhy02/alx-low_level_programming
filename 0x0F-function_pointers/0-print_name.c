@@ -1,14 +1,10 @@
-/**
- * file - 0-print_name.c
- * Author: Adeyemi Adedayo
- */
-
+#include <stdlib.h>
 #include "function_pointers.h"
 
 /**
- * print_name - print a name
+ * print_name - prints a name
  * @name: name to be printed
- * @f: callback function that print name
+ * @f: callback function that prints name
  */
 
 void print_name(char *name, void (*f)(char *))
