@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 
 /**
  * sum_them_all - return the sum of all its parameter
@@ -19,7 +19,7 @@ va_start(valist, n);
 
 for (i = 0; i < n; i++)
 sum += va_arg(valist, int);
-va_end(valist)
+va_end(valist);
 
 return (sum);
 }
