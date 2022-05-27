@@ -14,7 +14,7 @@ int i = 0;
 
 listint_t *temp = head;
 
-while (head && i < index)
+while (temp && i < index)
 {
 temp = temp->next;
 i++;
